@@ -19,7 +19,6 @@ const result = document.querySelector('.lorem-text');
 form.addEventListener('submit', function(e) {
     e.preventDefault();
     const value = parseInt(amount.value);
-    // console.log(isNaN(value));
     const random = Math.floor(Math.random() * text.length);
 
     if (isNaN(value) || value <= 0 || value > 9) {
@@ -34,6 +33,4 @@ form.addEventListener('submit', function(e) {
         console.log(tempText);
         result.innerHTML = tempText;
     }
-
-    // console.log(value);
-})
+});
