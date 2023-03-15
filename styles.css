@@ -19,6 +19,10 @@ Variables
   --transition: all 0.3s linear;
 }
 
+* {
+  touch-action: manipulation;
+}
+
 body {
   font-family: var(--ff-secondary);
   
@@ -31,10 +35,6 @@ body {
   
   line-height: 1.5;
   font-size: 0.875rem;
-}
-
-* {
-  touch-action: manipulation;
 }
 
 main {
