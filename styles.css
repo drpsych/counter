@@ -12,12 +12,6 @@ Variables
 */
 
 :root {
-  /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
-  --clr-grey-2: hsl(211, 39%, 23%);
-  --clr-grey-3: hsl(209, 34%, 30%);
-  --clr-grey-4: hsl(209, 28%, 39%);
-  
   --clr-white: #fff;
   --clr-black: #222;
   --ff-primary: "Roboto", sans-serif;
@@ -33,7 +27,7 @@ body {
   background: -webkit-linear-gradient(45deg, #a5c4f2 0%, #ccffcc 80%);
   background: -moz-linear-gradient(45deg, #a5c4f2 0%, #ccffcc 80%);
   
-  color: var(--clr-grey-1);
+  color: hsl(209, 61%, 16%);
   
   line-height: 1.5;
   font-size: 0.875rem;
