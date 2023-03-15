@@ -39,11 +39,9 @@ body {
   font-size: 0.875rem;
 }
 
-/*
-=============== 
-Counter
-===============
-*/
+* {
+  touch-action: manipulation;
+}
 
 main {
   min-height: 100vh;
