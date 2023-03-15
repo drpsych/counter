@@ -50,6 +50,7 @@ main {
   font-weight: bold;
 }
 .btn {
+  touch-action: manipulation;
   text-transform: uppercase;
   background: transparent;
   
